@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { MapPin, X } from 'lucide-react';
 import logo from "../assets/logo2.png";
-// import logo from "../assets/logo3.jpg";
+
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
  
@@ -21,11 +21,11 @@ const Navbar = () => {
 
             {/* Desktop Navigation */}
             <div className="hidden lg:flex items-center space-x-8">
-            <a href="#" className="hover:text-red-700">HOME</a>
-              <a href="#" className="hover:text-red-700">ABOUT US</a>
-              <a href="#" className="hover:text-red-700">PRODUCTS</a>
-              <a href="#" className="hover:text-red-700">CONTACT</a>
-              <a href="#" className="hover:text-red-700">CUSTOMER CARE</a>
+            <a href="#hero" className="hover:text-red-700">HOME</a>
+              <a href="#about" className="hover:text-red-700">ABOUT US</a>
+              <a href="#products" className="hover:text-red-700">PRODUCTS</a>
+              <a href="#contact" className="hover:text-red-700">CONTACT</a>
+              <a href="#customer" className="hover:text-red-700">CUSTOMER CARE</a>
               
             </div>
 
@@ -43,7 +43,7 @@ const Navbar = () => {
                 </svg>
               </a>
               <div className="w-px h-6 bg-gray-300"></div>
-              <a href="#" className="hover:text-red-700">
+              <a href="https://maps.app.goo.gl/sdUC29RLisTjyYEk8" className="hover:text-red-700" target="blank">
                 <MapPin size={28} />
               </a>
             </div>

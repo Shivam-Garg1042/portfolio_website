@@ -18,7 +18,7 @@ const Hero = () => {
           </h2>
           <p className="text-lg text-gray-600 mb-8 px-4">
             Your trusted partner for all Texmo motor solutions in Haryana. 
-            Providing quality products and excellent service since 2000.
+            Providing quality products and excellent service since 1984.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href="products">
@@ -64,8 +64,8 @@ const Hero = () => {
         {/* Stats Section */}
         <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto text-center">
           {[
-                { value: "25+", label: "Years in Business" },
-                { value: "5000+", label: "Satisfied Customers" },
+                { value: "40+", label: "Years in Business" },
+                { value: "50000+", label: "Satisfied Customers" },
                 { value: "100%", label: "Genuine Products" },
                 { value: "Toll-Free", label: "24/7 Support" }
           ].map((stat, index) => (

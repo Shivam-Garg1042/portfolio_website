@@ -8,9 +8,9 @@ import pump6 from "../assets/pump6.jpg";
 import pump7 from "../assets/pump7.jpg";
 import system1 from "../assets/system1.jpg";
 import system2 from "../assets/system2.jpg";
-// import system3 from "../assets/system3.jpg";
+import system3 from "../assets/system3.jpg";
 import system4 from "../assets/system4.png";
-// import system5 from "../assets/system5.jpg";
+import system5 from "../assets/system5.jpg";
 import system6 from "../assets/system6.jpg";
 import cable1 from "../assets/cable1.webp";
 import cable2 from "../assets/cable2.jpg";
@@ -74,7 +74,7 @@ const Products = () => {
         { 
           name: "RO Pumps", 
           description: "Reverse osmosis applications",
-          image: "/api/placeholder/300/200"
+          image: system3
         },
         { 
           name: "Solar Pumps", 
@@ -84,7 +84,7 @@ const Products = () => {
         { 
           name: "Industrial Three Phase Pumps", 
           description: "Heavy-duty industrial applications",
-          image: "/api/placeholder/300/200"
+          image: system5
         },
         { 
           name: "Induction Electric Motors", 
@@ -123,7 +123,7 @@ const Products = () => {
   ];
 
   return (
-    <section className="py-6 bg-gray-50">
+    <section id="products"className="py-4 bg-gray-50">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12">Our Products</h2>
         

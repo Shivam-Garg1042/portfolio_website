@@ -42,7 +42,8 @@ const Contact = () => {
               </div>
               <div>
                 <h4 className="font-bold text-lg">Address</h4>
-                <p className="text-gray-600">New Manglapuri, Sultanpur, Delhi, 110030</p>
+                <p className="text-gray-600">Jainik india, Opposite Bikaner sweets, Jajjhar road, Rohtak 124001
+</p>
               </div>
             </div>
 
@@ -54,7 +55,7 @@ const Contact = () => {
               </div>
               <div>
                 <h4 className="font-bold text-lg">Email</h4>
-                <p className="text-gray-600">info@example.com</p>
+                <p className="text-gray-600">arihant.jain2209@gmail.com</p>
               </div>
             </div>
             </div>
@@ -68,7 +69,7 @@ const Contact = () => {
               </div>
               <div>
                 <h4 className="font-bold text-lg">Phone</h4>
-                <p className="text-gray-600">91-9812254513</p>
+                <p className="text-gray-600">91-9812254513 / 91-9468444494</p>
               </div>
             </div>
 
@@ -88,7 +89,7 @@ const Contact = () => {
           {/* Google Maps Embed */}
           <div className="mt-8">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d438.28999854200293!2d77.1679588276987!3d28.500018899999983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1e411c43aebf%3A0xfd3681fae42c2edd!2s113%2C%20Mangla%20Puri%20Main%20Rd%2C%20New%20Manglapuri%2C%20Manglapuri%20Village%2C%20Sultanpur%2C%20New%20Delhi%2C%20Delhi%20110030!5e0!3m2!1sen!2sin!4v1738776966148!5m2!1sen!2sin" 
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1112.4001318613975!2d76.58113135495526!3d28.893549706900565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDUzJzM2LjgiTiA3NsKwMzQnNTUuMiJF!5e0!3m2!1sen!2sin!4v1739857034826!5m2!1sen!2sin" 
               className="w-full h-64 border-0 rounded-lg"
               allowFullScreen 
             />
@@ -102,3 +103,4 @@ const Contact = () => {
 };
 
 export default Contact; 
+
